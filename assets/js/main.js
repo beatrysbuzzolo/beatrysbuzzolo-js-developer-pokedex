@@ -67,8 +67,8 @@ function getColorByType(type) {
         fairy: '#f9aec7'
     };
 
-    // Verifique se o tipo está no objeto e retorne a cor
-    return colors[type] || '#fff'; // Retorna branco se o tipo não for encontrado
+    
+    return colors[type];
 }
 
 
@@ -94,6 +94,6 @@ function openModal(pokemon) {
 
 function closeModal() {
     const modal = document.getElementById('pokemonModal');
-    modal.style.display = 'none'; // Oculta o modal
+    modal.style.display = 'none';
 }
 

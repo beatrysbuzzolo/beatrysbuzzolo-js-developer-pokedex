@@ -169,7 +169,7 @@
 
 
 .pokemon-details {
-    display: none; /* Oculta inicialmente */
+    display: none; 
     padding: 1rem;
     background-color: #fff;
     border-radius: 1rem;
@@ -178,7 +178,7 @@
 }
 
 .pokemon-details.active {
-    display: block; /* Mostra quando ativo */
+    display: block; 
 }
 
 .pokemon-details img {
